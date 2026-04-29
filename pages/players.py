@@ -32,7 +32,7 @@ st.image(load_image_64(player_stats["Photo"]))
 st.title(player_stats["Name"])
 
 st.markdown(f'**Clube:** {player_stats["Club"]}')
-st.markdown(f'**Clube:** {player_stats["Position"]}')
+st.markdown(f'**Posição:** {player_stats["Position"]}')
 
 col1, col2, col3, col4 = st.columns(4)
 col1.markdown(f'**Idade:**{player_stats['Age']}')
