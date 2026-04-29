@@ -1,9 +1,11 @@
 import base64
 import requests
 import streamlit as st
+from data import load_data
+
+load_data()
 
 
-# 1. Definida a função que estava faltando
 def load_image_64(url):
     try:
         response = requests.get(url)

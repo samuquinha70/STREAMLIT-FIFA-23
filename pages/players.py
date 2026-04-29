@@ -1,6 +1,9 @@
 import base64
 import requests
 import streamlit as st
+from data import load_data
+
+load_data()
 
 
 @st.cache_data
