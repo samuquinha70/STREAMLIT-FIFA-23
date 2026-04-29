@@ -19,8 +19,8 @@ def preprocess_row(url):
 
 
 st.set_page_config(
-    page_title='Players',
-    page_icon='🏃',
+    page_title='Teams',
+    page_icon='🧑‍🤝‍🧑',
     layout='wide'
 )
 
